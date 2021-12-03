@@ -1,52 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <title>Frontend Mentor | Pricing - Annually/Monthly</title>
 </head>
+
 <body>
 
-  Our Pricing
-  Annually
-  Monthly
+  <main>
+    <header class="header">
+      <h1 class="title">
+        Our Pricing
+      </h1>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+      <div class="period table">
+        <span class="period_text">
+          Annually
+        </span>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+        <i>
+          switch
+        </i>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <span class="period_text">
+          Monthly
+        </span>
+      </div>
+    </header>
+
+    <div class="cards">
+      <div class="card table">
+        <p class="card_text">
+          Basic
+        </p>
+
+        <p class="ammount table">
+          <span class="sifrao">
+            $
+          </span>
+
+          19.99
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          500 GB Storage
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          2 Users Allowed
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          Send up to 3 GB
+        </p>
+
+        <div class="separator"></div>
+
+        <button class="button">
+          <p class="button_text">
+            LEARN MORE
+          </p>
+        </button>
+      </div>
+
+      <div class="card table highlight_card">
+        <p class="highlight_card_text">
+          Professional
+        </p>
+
+        <p class="ammount highlight_ammount table">
+          <span class="sifrao">
+            $
+          </span>
+
+          24.99
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="highlight_card_text">
+          1 TB Storage
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="highlight_card_text">
+          5 Users Allowed
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="highlight_card_text">
+          Send up to 10 GB
+        </p>
+
+        <div class="separator"></div>
+
+        <button class="button highlight_button">
+          <p class="button_text highlight_button_text">
+            LEARN MORE
+          </p>
+        </button>
+      </div>
+
+      <div class="card table">
+        <p class="card_text">
+          Master
+        </p>
+
+        <p class="ammount table">
+          <span class="sifrao">
+            $
+          </span>
+
+          39.99
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          2 TB Storage
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          10 Users Allowed
+        </p>
+
+        <div class="separator"></div>
+
+        <p class="card_text">
+          Send up to 20 GB
+        </p>
+
+        <div class="separator"></div>
+
+        <button class="button">
+          <p class="button_text">
+            LEARN MORE
+          </p>
+        </button>
+      </div>
+    </div>
+  </main>
+
+
+  <div>
+    <p style="display: inline">Arthur</p>
+    <p style="display: inline">Brthur</p>
+    <p style="display: inline-block">
+      Crthur
+      <span style="display: inline-block">Drthur</span>
+    </p>
   </div>
 </body>
+
 </html>
